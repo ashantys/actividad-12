@@ -2,8 +2,8 @@
 export default {
   name: 'ChuckCard',
   props: {
-    iconUrl: String, // Define el prop 'iconUrl' como una cadena
-    jokeValue: String, // Define el prop 'jokeValue' como una cadena
+    iconUrl: String, 
+    jokeValue: String, 
   },
 };
 </script>
@@ -18,5 +18,27 @@ export default {
     </div>
     </div>
 </template>
+
+<style scoped>
+.chuck-card {
+  max-width: 300px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-img-top{
+  border-radius: 5px;
+  max-width: 250px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+</style>
 
 
